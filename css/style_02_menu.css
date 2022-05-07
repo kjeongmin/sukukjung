@@ -1,0 +1,439 @@
+/*폰트연결*/
+/*레페리포인트폰트*/
+@font-face {
+    font-family: 'LeferiPoint-WhiteA';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/LeferiPoint-WhiteA.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'LeferiPoint-BlackA';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/LeferiPoint-BlackA.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*프리텐다드*/
+@font-face {
+    font-family: 'Pretendard-Light';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Pretendard-SemiBold';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Pretendard-Bold';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Bold.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+}
+
+/*폰트*/
+
+/*기본설정*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #1c1c19;
+}
+
+ul {
+    list-style: none;
+}
+
+body {
+    font-family: Pretendard-Light;
+    font-size: 14px;
+    line-height: 24px;
+    color: #1c1c19;
+    min-width: 1320px;
+}
+
+/*기본설정*/
+/*헤더*/
+#header {
+    background-color: #46433e;
+    height: 85px;
+}
+
+.header_inner {
+    width: 1320px;
+    height: 80px;
+    margin: auto;
+}
+
+.logo_k {
+    width: 120px;
+    height: 66px;
+    float: left;
+}
+
+.logo_k .logo_img img {
+    padding: 10px;
+    width: 120px;
+    height: 66px;
+}
+
+.header_inner .menu_top {
+    float: right;
+}
+
+.header_inner .menu_top li {
+    float: left;
+}
+
+/*호버전*/
+.header_inner .menu_top li a {
+    display: block;
+    font-family: Pretendard-Bold;
+    font-size: 16px;
+    position: relative;
+    top: 47px;
+    margin: 0 65px 0 150px;
+    color: white;
+}
+
+/*호버전*/
+/*호버후*/
+.header_inner .menu_top li a:hover {
+    display: block;
+    font-family: Pretendard-Bold;
+    font-size: 16px;
+    position: relative;
+    top: 47px;
+    margin: 0 65px 0 150px;
+    color: #cec0a6;
+}
+
+/*호버후/
+/*헤더*/
+/*배너*/
+#banner {
+    background: url(../images/banner_02.jpg) no-repeat center top;
+    width: 100%;
+    height: 240px;
+    background-size: cover;
+}
+
+#banner .banner_01 {
+    font-size: 26px;
+    color: #ffffff;
+    font-family: Pretendard-Bold;
+    display: block;
+    text-align: center;
+    padding-top: 108px;
+}
+
+/*배너*/
+/*설명*/
+.title{
+    text-align: center;
+}
+.title p{
+    font-size: 20px;
+    text-align: center;
+    font-family: Pretendard-SemiBold;
+    margin-top: 100px;
+    border-radius: 30px;
+    padding: 10px 20px;
+    border: #cfc6b4 2px solid;
+    display: inline-block;
+}
+.mainns {
+    font-size: 16px;
+    text-align: center;
+    font-family: Pretendard-Light;
+    padding-top: 60px;
+    padding-bottom: 50px;
+}
+
+/*설명*/
+/*메뉴*/
+.box1_wrap{
+    background-color: #eee;
+    padding: 60px 0;
+}
+.box1 {
+    width: 600px;
+    height: 430px;
+    margin: auto;
+    
+}
+
+.box1 .food1 {
+    width: 600px;
+    height: 430px;
+}
+
+.food1 img {
+    width: 600px;
+    height: 430px;
+}
+
+.t1 {
+    width: 600px;
+    height: 100px;
+    margin: auto;
+}
+
+.t1 .d79 {
+    float: left;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.t1 .d79 .dopo {
+    font-size: 20px;
+    font-family: Pretendard-SemiBold;
+}
+
+.t1 .d797585 {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.t1 .sf45 {
+    font-size: 20px;
+    font-family: Pretendard-SemiBold;
+    float: right;
+    margin-top: 10px;
+}
+
+.t1 .sf45 .dopo1 {
+    font-size: 16px;
+}
+
+.t1 .t3 {
+    font-family: Pretendard-SemiBold;
+    font-size: 10px;
+    text-align: right;
+    padding-top: 60px;
+    margin-top: 10px;
+    margin-bottom: 100px;
+}
+
+/*메뉴*/
+/*서브*/
+.kk1 {
+    width: 1000px;
+
+    margin: auto;
+    margin-top: 60px;
+}
+.kk1_menu{
+    height: 380px;
+    padding: 60px 0;
+}
+.kj1 {
+    width: 150px;
+    height: 50px;
+    background-color: white;
+    border: #cfc6b4 2px solid;
+    margin-left: 30px;
+}
+
+.kj1 .s784 {
+    font-size: 30px;
+    font-family: Pretendard-SemiBold;
+    text-align: center;
+
+    display: block;
+}
+
+.kk1 .d77474 {
+    width: 320px;
+    height: 380px;
+
+    float: left;
+}
+
+.kk1 .d77474 .dok img {
+    width: 320px;
+    height: 290px;
+    display: block;
+}
+
+.slj {
+    width: 300px;
+    height: 62px;
+    text-align: center;
+}
+
+.kk1 .d77474 .dposlk {
+    font-size: 20px;
+    font-family: Pretendard-SemiBold;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.kk1 .d77474 .d792585 {
+    font-size: 16px;
+    font-family: Pretendard-SemiBold;
+}
+
+.kk1 .d77474 .d792585 .d794 {
+    font-size: 14px;
+}
+
+.kk1 .d774741 {
+    width: 320px;
+    height: 380px;
+
+    float: left;
+    margin-left: 15px;
+}
+
+.kk1 .d774741 .dok1 img {
+    width: 320px;
+    height: 290px;
+    display: block;
+}
+
+.slj {
+    width: 300px;
+    height: 62px;
+    text-align: center;
+}
+
+.kk1 .d774741 .dposlk1 {
+    font-size: 20px;
+    font-family: Pretendard-SemiBold;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.kk1 .d774741 .d7925851 {
+    font-size: 16px;
+    font-family: Pretendard-SemiBold;
+}
+
+.kk1 .d774741 .d7925851 .d7941 {
+    font-size: 14px;
+}
+
+.kk1 .d7747411 {
+    width: 320px;
+    height: 380px;
+
+    float: left;
+    margin-left: 15px;
+}
+
+.kk1 .d7747411 .dok11 img {
+    width: 320px;
+    height: 290px;
+    display: block;
+}
+
+.slj {
+    width: 300px;
+    height: 62px;
+    text-align: center;
+}
+
+.kk1 p {
+    font-size: 17px;
+    font-family: Pretendard-SemiBold;
+    text-align: center;
+    margin-top: 18px;
+}
+
+.kk1 span {
+    display: inline-block;
+    padding-top: 4px;
+    font-size: 16px;
+    font-family: Pretendard-SemiBold;
+}
+
+.kk1 .d7747411 .d79258511 .d79411 {
+    font-size: 14px;
+}
+
+/*서브*/
+/*푸터*/
+#footer {
+    width: 100%;
+    height: 375px;
+    background-color: #4b4a46;
+  }
+  
+  #footer .footer_inner {
+    width: 1115px;
+    height: 180px;
+    margin: auto;
+    padding-top: 75px;
+  }
+  
+  /*내용*/
+  #logo_sub {
+    width: 155px;
+    height: 50px;
+    float: left;
+    padding-right: 85px;
+  }
+  
+  #sub_menu {
+    float: left;
+    border-left: #76736e solid 3px;
+  }
+  
+  #sub_menu li {
+    padding-left: 20px;
+    padding-right: 160px;
+    text-align: center;
+    padding-bottom: 12px;
+  }
+  
+  #sub_menu li .B_m {
+    font-family: Pretendard-SemiBold;
+    color: white;
+  }
+  
+  #sub_menu li a {
+    font-size: 13px;
+      color: #d7d2cf;
+      padding-bottom: 18px;
+      font-weight: 100;
+      font-family: Pretendard-Light;
+  }
+  
+  #sub_menu .conter_t {
+    font-family: Pretendard-SemiBold;
+    color: white;
+  }
+  
+  
+  #sub_menu {
+    font-family: Pretendard-SemiBold;
+  }
+  
+  #sub_menu .d46 {
+    text-align: left;
+    padding-bottom: 14px;
+  }
+  
+  /*이미지*/
+  .imgsss {
+    float: right;
+  }
+  .imgsss img{
+    width: 32px;
+    display: inline-block;
+    margin-left: 4px;
+  }
+  
+  /*이미지*/
+  /*내용*/
+  /*푸터*/

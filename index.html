@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=1320">
+    <title>수국정</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon.png">
+    <link rel="stylesheet" href="css/style_01main.css">
+   
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="css/swiper-bundle.min.css" />
+</head>
+
+<body>
+    <!--헤더-->
+    <div id="header">
+        <div class="header_inner">
+            <div class="logo_k">
+                <h1 class="logo_img"> <a href="index.html"><img src="images/main_logo_01.png" alt="logo"></a></h1>
+            </div>
+            <ul class="menu_top">
+                <li class="lil"><a href="sub/about.html">ABOUT</a></li>
+                <li class="lil"><a href="sub/menu.html">MENU</a></li>
+                <li class="lil"><a href="sub/md.html">MD</a></li>
+                <li><a href="sub/community.html">COMMUNITY</a></li>
+            </ul>
+        </div>
+    </div>
+    <!--헤더-->
+    <!--슬라이드 메인배너-->
+    <!--배너-->
+    <div id="banner">
+        <!-- Swiper -->
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="images/main_banner1_01.jpg" alt="banner"></div>
+                <div class="swiper-slide"><img src="images/main_banner2_01.jpg" alt="banner"></div>
+                <div class="swiper-slide"><img src="images/main_banner3_01.jpg" alt="banner"></div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+        </div>
+
+        <!-- Swiper JS -->
+        <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+        <!-- Initialize Swiper -->
+        <script>
+            var swiper = new Swiper(".mySwiper", {
+                spaceBetween: 0,
+                centeredSlides: true,
+                autoplay: {
+                    delay: 2500,
+                    disableOnInteraction: false,
+                },
+                pagination: {
+                    el: ".swiper-pagination",
+                    clickable: true,
+                },
+                navigation: {
+                    nextEl: ".swiper-button-next",
+                    prevEl: ".swiper-button-prev",
+                },
+            });
+        </script>
+    </div>
+    <!--배너-->
+    <!--슬라이드 메인배너-->
+    <!--수국정_메인의미_동영상-->
+    <div class="main">
+        <!--수국정_메인의미-->
+        <div id="main_t">
+            <h2 class="main_big"><img src="images/bibimbab_01.png" alt="bibimbab_png">수국정</h2>
+            <p class="p1">수국정의 의미는<span class="p_1">
+                    빼어날 수,나라 국</span>의<br>
+                한지를 가져와서 만든 의미이며,<br>
+                한국을 포함한 외국인들이게도<br> <span class="p_1">한국의 맛과 아름다움</span>을 알리고,<br>한국의 음식을 전하고자 만든 식당입니다.
+            </p>
+        </div>
+        <!--동영상-->
+        <div id="main_move">
+            <video controls preload="=auto">
+                <source src="images/about_video.mp4" type="video/mp4">
+            </video>
+        </div>
+        <!--동영상-->
+    </div>
+    <!--수국정_메인의미-->
+    <!--수국정_메인의미_동영상-->
+    <!-- 5월 중앙배너-->
+    <div id="sub_banner">
+    </div>
+    <!-- 5월 중앙배너-->
+    <!--소개_메뉴-->
+    <div id="logo_menu">
+        <!--소개이미지_글-->
+        <div id="logo_img_text">
+            <!--소개_이미지-->
+            <div class="logo_img2">
+                <img src="images/logo_img_01.jpg" alt="logo_img2">
+            </div>
+            <!--소개_이미지-->
+            <!--소개_글-->
+            <div id="logo_text">
+                <h2 class="h2_1">수국정<span class="span_1">을 소개합니다.</span><a href="#" class="hanok"><img
+                            src="images/hanok_01.png" alt=""></a></a></h2>
+                <p class="p2">수국정은 <span class="p_2">빼어난 아름다움과 한국의 본 깊은 맛</span>을
+                    조합한 음식을 선보이겠다는 마음으로 손님을 상대하며,
+                    또한, 식당의 내부와 외부의 느낌은 오로지
+                    한옥의 느낌을 보이면서 불편함이 없도록 하기 위해서
+                    <span class="p_2">옛스러움과 현대적인 느낌을 적절히 조합</span>하여
+                    한옥의 느낌을 강조하였습니다.<br>
+                    음식을 드시면서도 식당의 인테리어로 인해
+                    <span class="p_2">한껏 더 한식의 맛을 풍미있게</span> 즐기실 수 있을 것입니다.
+                </p>
+                <div class="about_big">
+                    <a href="sub/about.html">
+                        <div class="about_big_1">ABOUT 바로가기</div>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <!--소개_글-->
+        <!--메뉴_이미지_글-->
+        <div id="menu_it">
+            <div id="menu_img_text">
+                <!--메뉴_글-->
+                <div id="menu_text">
+                    <h2 class="h2_2"><a href="#" class="menyupan"> <img src="images/menyupan_01.png" alt="menyupan"></a>
+                        메뉴<span class="span_2">을 소개합니다.</span></h2>
+                    <p class="p3">수국정은<br>
+                        <span class="p_3">최상의 재료들만을 고집하여</span> 식사를 대접하고<br>
+                        손님들께 예술을 선보이는 동시에<br>
+                        맛을 선보일 것이며,<br>
+                        <span class="p_3">눈과 귀를 함께 즐길 수 있도록</span> 최고의<br>
+                        음식만을 선보이겠습니다.
+                    </p>
+                    <div class="menu_big">
+                        <a href="sub/menu.html">
+                            <div class="menu_big_1">MENU 바로가기</div>
+                        </a>
+                    </div>
+                </div>
+                <!--메뉴_글-->
+                <!--메뉴_이미지-->
+                <div class="menu_img">
+                    <img src="images/menu_img_01.jpg" alt="menu_img_1">
+                </div>
+            </div>
+
+        </div>
+        <!--메뉴_이미지_글-->
+    </div>
+    <!--소개_메뉴-->
+    <!--md_예약-->
+    <!--md_이미지_배경-->
+    <div id="md_con">
+        <!--md,예약_이미지_글 큰틀-->
+        <div id="md_con_textset">
+            <!--md_이미지.글 큰틀-->
+            <div class="md_img">
+                <img src="images/01md_img_01.jpg" alt="md_img">
+                <!--md글_큰틀-->
+                <div class="md_text">
+                    <h3 class="h3_11">수국정의 제품<a href="#" class="market"><img src="images/market_01.png"
+                                alt="market"></a></h3>
+                    <div class="MD_big">
+                        <a href="sub/md.html">
+                            <div class="MD_big_1">MD 바로가기</div>
+                        </a>
+                    </div>
+                    <p class="p4">수국정의 제품은 오직 <span class="p_4">고객분들만을<br> 생각하며</span> 출시하였습니다.<br>
+                        모든 제품들은 <span class="p_4">HACCP 인증</span>을 거치고<br>인체에 유해한 물질이없는 제품들이며,<br><span class="p_4">오랜
+                            생각끝</span>에 출시하였습니다.</p>
+                </div>
+
+            </div>
+            <!--md_이미지.글 큰틀-->
+            <!--예약_이미지,글 큰틀-->
+            <div id="con_img_dd">
+                <div id="con_img">
+                    <img src="images/contact_img_01.jpg" alt="xcon_img">
+                </div>
+                <!--예약_이미지,글 큰틀-->
+                <!--예약글_큰틀-->
+                <div class="con_text">
+                    <h3 class="h3_12">수국정은 예약을 해주세요. <a href="#" class="contact"><img src="images/contact_01.png"
+                                alt=""> </a></h3>
+                    <div class="con_big">
+                        <a href="javascript:return false;">
+                            <div class="con_big_1">CONTACT 바로가기</div>
+                        </a>
+                    </div>
+                    <p class="pk1">테라스 이용 시 주의사항</p>
+                    <p class="pk2">※테라스 이용 시 8인 이상 금지.<br>
+                        ※쓰레가는 분리수거 해주세요.<br>
+                        ※머문 자리는 정리 해 주세요.</p>
+                    <span class="spn1">* 테라스 이용 시 예약을 부탁드립니다.</span>
+                    <p class="i1">바베큐 이용 시 모든음식은 직접 가지고 오셔야 합니다.
+                        테라스 이용과 식당 예약방식은 동일합니다.</p>
+                    <p class="i2">(자세한 사항은 공시사항을 참고 해주세요.)</p>
+                </div>
+            </div>
+            <!--예약글_큰틀-->
+            <!--md글_큰틀-->
+        </div>
+        <!--md,예약_이미지_글 큰틀-->
+    </div>
+    <!--md_예약-->
+    <!--공지_이벤트 전체틀-->
+    <div id="bg_gi_ev">
+        <!--공지이벤트 박스-->
+        <div id="gi_ev">
+            <div class="gi_bg">
+                <h3 class="h3g">공지사항<a href="#"><img src="images/gongji_01.png" alt="gongji"></a><a
+                        href="sub/community.html">
+                        <p class="pgf">+more</p>
+                    </a></h3>
+                <span class="sp1">
+                    <p class="tg1">수국정의 현재 금액 변동사항 <span class="tx1">22.02.11</span> </p>
+                    <p class="tg1">수국정 예약관련 문의 (+첨부파일)<span class="tx1">21.01.24</span></p>
+                    <p class="tg1">현재 코로나바이러스 감염증(COVID-19)에 대한...<span class="tx1">21.10.09</span></p>
+                    <p class="tg1">수국정 새단장 리모델링 공지(+첨부파일)<span class="tx1">19.07.16</span></p>
+                </span>
+            </div>
+            <!--공지사항 박스-->
+            <!--이벤트 박스-->
+            <div id="ev_bg">
+                <h3 class="h3g">EVENT<a href="#"><img src="images/event_01.png" alt="gongji"></a>
+                    <p class="pgf">+more</p>
+                </h3>
+
+                <div class="ev_i">
+                    <img src="images/event_img_01.jpg" alt="event_img">
+                </div>
+            </div>
+        </div>
+        <!--공지이벤트 박스-->
+    </div>
+    <!--공지_이벤트 전체틀-->
+    <div id="footer">
+        <div class="footer_inner">
+            <!--내용-->
+            <h1 id="logo_sub"><a href="index.html"><img src="images/sub_logo_01.png" alt="sub_logo"></a></h1>
+            <ul id="sub_menu">
+                <li><a href="sub/about.html" class="B_m">브랜드 소개</a></li>
+                <li><a href="sub/menu.html">메뉴</a></li>
+                <li><a href="sub/md.html">제품소개</a></li>
+                <li><a href="sub/community.html">공지사항</a></li>
+            </ul>
+            <ul id="sub_menu">
+                <li class="d46"><a href="#" class="conter_t">부산광역시 중구 중앙동111-6</a></li>
+                <li class="d46"><a href="#">T.051-321-2184</a></li>
+                <li class="d46"><a href="#">P.010.9187.2184</a></li>
+                <li class="d46"><a href="#">E.sugugieong@naver.com</a></li>
+            </ul>
+            <ul id="sub_menu">
+                <li class="d46"><a href="#">월요일-토요일</a></li>
+                <li class="d46"><a href="#">MON-SET</a></li>
+                <li class="d46"><a href="#">11:00-19:30</a></li>
+                <li class="d46"><a href="#">수요일 매주휴무</a></li>
+                <li class="d46"><a href="#">일요일 격주휴무</a></li>
+
+            </ul>
+            <!--이미지-->
+            <div class="imgsss">
+                <a href="javascript:return false;"><img src="images/facebook_01.png" alt="face"></a>
+                <a href="javascript:return false;"><img src="images/instar_logo_01.png" alt="inst"></a>
+                <a href="javascript:return false;"><img src="images/blog_01.png" alt="blog"></a>
+                <!--이미지-->
+            </div>
+            <!--내용-->
+
+
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,525 @@
+/*폰트연결*/
+/*레페리포인트폰트*/
+@font-face {
+    font-family: 'LeferiPoint-WhiteA';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/LeferiPoint-WhiteA.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'LeferiPoint-BlackA';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/LeferiPoint-BlackA.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*프리텐다드*/
+@font-face {
+    font-family: 'Pretendard-Light';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Pretendard-SemiBold';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Pretendard-Bold';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Bold.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+}
+
+/*폰트*/
+
+/*기본설정*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #1c1c19;
+}
+
+ul {
+    list-style: none;
+}
+
+body {
+    font-family: Pretendard-Light;
+    font-size: 14px;
+    line-height: 24px;
+    color: #1c1c19;
+    min-width: 1320px;
+}
+
+/*기본설정*/
+/*헤더*/
+#header {
+    background-color: #46433e;
+    height: 85px;
+}
+
+.header_inner {
+    width: 1320px;
+    height: 80px;
+    margin: auto;
+}
+
+.logo_k {
+    width: 120px;
+    height: 66px;
+    float: left;
+}
+
+.logo_k .logo_img img {
+    padding: 10px;
+    width: 120px;
+    height: 66px;
+}
+
+.header_inner .menu_top {
+    float: right;
+}
+
+.header_inner .menu_top li {
+    float: left;
+}
+
+/*호버전*/
+.header_inner .menu_top li a {
+    display: block;
+    font-family: Pretendard-Bold;
+    font-size: 16px;
+    position: relative;
+    top: 47px;
+    margin: 0 65px 0 150px;
+    color: white;
+}
+
+/*호버전*/
+/*호버후*/
+.header_inner .menu_top li a:hover {
+    display: block;
+    font-family: Pretendard-Bold;
+    font-size: 16px;
+    position: relative;
+    top: 47px;
+    margin: 0 65px 0 150px;
+    color: #cec0a6;
+}
+
+/*호버후/
+/*헤더*/
+/*배너*/
+#banner {
+    background: url(../images/banner_01_1.jpg) no-repeat center top;
+    width: 100%;
+    height: 240px;
+    background-size: cover;
+}
+
+#banner .banner_01 {
+    font-size: 26px;
+    color: #ffffff;
+    font-family: Pretendard-Bold;
+    display: block;
+    text-align: center;
+    padding-top: 108px;
+}
+
+/*배너*/
+/*상단 글*/
+.box1 {
+    width: 792px;
+    height: 550px;
+
+    margin: 100px auto 50px auto;
+    text-align: center;
+    font-family: Pretendard-SemiBold;
+}
+
+.box1 .t1 {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.box1 .t1_1 {
+    font-size: 26px;
+    color: #bd8d4e;
+}
+
+.box1 .t1_11 {
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.box1 .t1_121 {
+    color: #bd8d4e;
+    font-family: Pretendard-Light;
+    margin: 10px 0 20px 0;
+}
+
+
+/*브랜드 비전*/
+.brand {
+    display: block;
+    font-size: 30px;
+    color: #997e20;
+    padding-left: 30px;
+}
+
+.brand img {
+    width: 50px;
+    height: 57px;
+}
+
+.brand_list img {
+    display: block;
+    width: 660px;
+    height: 200px;
+    margin: auto;
+    margin-top: 25px;
+}
+
+/*브랜드 비전*/
+/*상단 글*/
+/*요리*/
+
+.food_box {
+    width: 800px;
+    height: 280px;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+/*사진*/
+.food_box .food {
+    width: 355px;
+    height: 280px;
+
+    float: left;
+}
+
+.food_box .food img {
+    width: 295px;
+    height: 280px;
+}
+
+/*사진*/
+/*요리_글*/
+.food_box .food_box1 {
+    width: 445px;
+    height: 280px;
+    float: right;
+    font-family: 'Pretendard-SemiBold';
+}
+
+.food_box .food_box1 .p1 {
+    margin-top: 75px;
+    font-family: Pretendard-Light;
+}
+
+.food_box .food_box1 .p2 {
+    color: #cec0a6;
+    font-size: 24px;
+}
+
+.food_box .food_box1 .p1,
+.p2 {
+    margin-bottom: 5px;
+}
+
+.food_box .food_box1 ul li img {
+    width: 20px;
+    height: 22px;
+    display: block;
+    float: left;
+}
+
+.food_box .food_box1 ul li a {
+    display: block;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+/*작은글*/
+.food_box1_2 {
+    width: 420px;
+    height: 120px;
+    margin: auto;
+    text-align: center;
+    font-family: 'Pretendard-SemiBold';
+    font-size: 14px;
+    margin-bottom: 50px;
+}
+
+.food_box1_2 .p3 {
+    padding: 0 52px 0 96px;
+}
+
+.food_box1_2 .p3 .span_1 {
+    font-size: 16px;
+}
+
+/*작은글*/
+/*요리_글*/
+/*서비스_한국*/
+.t_box {
+    width: 100%;
+    height: 374px;
+    margin: auto;
+    background: url(../images/foodabout_best_bg.jpg) no-repeat center top;
+    margin-bottom: 70px;
+}
+
+.t_box .best_korea {
+    width: 1250px;
+    height: 374px;
+    margin: auto;
+}
+
+/*서비스*/
+/*사진*/
+.t_box .best_korea .best_box {
+    width: 610px;
+    height: 290px;
+
+    padding-top: 42px;
+    float: left;
+}
+
+.t_box .best_korea .best_box .best_img {
+    width: 310px;
+    height: 290px;
+
+    float: left;
+}
+
+.t_box .best_korea .best_box .best_img img {
+    width: 310px;
+    height: 290px;
+}
+
+/*사진*/
+/*글*/
+.t_box .best_korea .best_box .best_t {
+    width: 280px;
+    height: 290px;
+
+    float: right;
+    text-align: left;
+}
+
+.t_box .best_korea .best_box .best_t .t1 {
+    font-size: 12px;
+    padding: 60px 0 0 15px;
+}
+
+.t_box .best_korea .best_box .best_t .t2 {
+    padding: 0 0 0 15px;
+    font-size: 26px;
+    font-family: 'Pretendard-SemiBold';
+    color: #cec0a6;
+}
+
+.t_box .best_korea .best_box .best_t .t1,
+.t2 {
+    margin-bottom: 5px;
+}
+
+.t_box .best_korea .best_box .best_t .t3 {
+    padding: 0 6px 0 15px;
+}
+
+.t_box .best_korea .best_box .best_t .t3 .span_1 {
+    font-size: 16px;
+    font-family: 'Pretendard-SemiBold';
+}
+
+/*글*/
+/*한국*/
+
+.t_box .best_korea .korea_box {
+    width: 610px;
+    height: 290px;
+
+    padding-top: 42px;
+    float: right;
+}
+
+/*사진*/
+.t_box .best_korea .korea_box .korea_img {
+    width: 310px;
+    height: 290px;
+
+    float: left;
+}
+
+.t_box .best_korea .korea_box .korea_img img {
+    width: 310px;
+    height: 290px;
+}
+
+/*사진*/
+/*글*/
+.t_box .best_korea .korea_box .korea_t {
+    width: 280px;
+    height: 290px;
+
+    float: right;
+    text-align: left;
+}
+
+.t_box .best_korea .korea_box .korea_t .t1 {
+    font-size: 12px;
+    padding: 85px 0 0 15px;
+}
+
+.t_box .best_korea .korea_box .korea_t .t2 {
+    padding: 0 0 0 15px;
+    font-size: 26px;
+    font-family: 'Pretendard-SemiBold';
+    color: #cec0a6;
+}
+
+.t_box .best_korea .korea_box .korea_t .t1,
+.t2 {
+    margin-bottom: 5px;
+}
+
+.t_box .best_korea .korea_box .korea_t .t3 {
+    padding: 0 11px 0 15px;
+}
+
+.t_box .best_korea .korea_box .korea_t .t3 .span_1 {
+    font-size: 16px;
+    font-family: 'Pretendard-SemiBold';
+}
+
+/*글*/
+/*재료*/
+.food_list {
+    width: 800px;
+    height: 255px;
+    margin: auto;
+    margin-bottom: 100px;
+}
+
+.food_list .food_list_t {
+    width: 565px;
+    height: 255px;
+    float: left;
+    text-align: center;
+}
+
+.food_list .food_list_t .t1 {
+    font-family: 'Pretendard-SemiBold';
+    font-size: 24px;
+    margin-bottom: 50px;
+
+}
+
+.food_list .food_list_t .t2 {
+    font-size: 18px;
+    padding: 0 64px 0 64px;
+    color: #bd8d4e;
+}
+
+.food_list .food_list_img {
+    width: 235px;
+    height: 235px;
+    float: right;
+    margin-top: 20px;
+}
+
+.food_list .food_list_img img {
+    width: 235px;
+    height: 235px;
+}
+
+/*재료*/
+/*푸터*/
+#footer {
+    width: 100%;
+    height: 375px;
+    background-color: #4b4a46;
+}
+
+#footer .footer_inner {
+    width: 1115px;
+    height: 180px;
+    margin: auto;
+    padding-top: 75px;
+}
+
+/*내용*/
+#logo_sub {
+    width: 155px;
+    height: 50px;
+    float: left;
+    padding-right: 85px;
+}
+
+#sub_menu {
+    float: left;
+    border-left: #76736e solid 3px;
+}
+
+#sub_menu li {
+    padding-left: 20px;
+    padding-right: 160px;
+    text-align: center;
+    padding-bottom: 12px;
+}
+
+#sub_menu li .B_m {
+    font-family: Pretendard-SemiBold;
+    color: white;
+}
+
+#sub_menu li a {
+    font-size: 13px;
+    color: #d7d2cf;
+    padding-bottom: 18px;
+    font-weight: 100;
+    font-family: Pretendard-Light;
+}
+
+#sub_menu .conter_t {
+    font-family: Pretendard-SemiBold;
+    color: white;
+}
+
+
+#sub_menu {
+    font-family: Pretendard-SemiBold;
+}
+
+#sub_menu .d46 {
+    text-align: left;
+    padding-bottom: 14px;
+}
+
+/*이미지*/
+.imgsss {
+    float: right;
+}
+
+.imgsss img {
+    width: 32px;
+    display: inline-block;
+    margin-left: 4px;
+}
+
+/*이미지*/
+/*내용*/
+/*푸터*/

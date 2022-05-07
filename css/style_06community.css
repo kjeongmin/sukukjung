@@ -1,0 +1,604 @@
+/*폰트연결*/
+/*레페리포인트폰트*/
+@font-face {
+  font-family: 'LeferiPoint-WhiteA';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/LeferiPoint-WhiteA.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'LeferiPoint-BlackA';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/LeferiPoint-BlackA.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'LeferiPoint-SpecialA';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/LeferiPoint-SpecialA.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/*프리텐다드*/
+@font-face {
+  font-family: 'Pretendard-Light';
+  src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Light.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Pretendard-SemiBold';
+  src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-SemiBold.woff') format('woff');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Pretendard-Bold';
+  src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Bold.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+}
+
+/*폰트*/
+
+/*기본설정*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #1c1c19;
+}
+
+ul {
+  list-style: none;
+}
+
+body {
+  font-family: Pretendard-Light;
+  font-size: 15px;
+  line-height: 24px;
+  color: #1c1c19;
+}
+
+/*기본설정*/
+/*헤더*/
+#header {
+  background-color: #46433e;
+  height: 85px;
+}
+
+.header_inner {
+  width: 1320px;
+  height: 80px;
+  margin: auto;
+}
+
+.logo_k {
+  width: 120px;
+  height: 66px;
+  float: left;
+}
+
+.logo_k .logo_img img {
+  padding: 10px;
+  width: 120px;
+  height: 66px;
+}
+
+.header_inner .menu_top {
+  float: right;
+}
+
+.header_inner .menu_top li {
+  float: left;
+}
+
+/*호버전*/
+.header_inner .menu_top li a {
+  display: block;
+  font-family: Pretendard-Bold;
+  font-size: 16px;
+  position: relative;
+  top: 47px;
+  margin: 0 65px 0 150px;
+  color: white;
+}
+
+/*호버전*/
+/*호버후*/
+.header_inner .menu_top li a:hover {
+  display: block;
+  font-family: Pretendard-Bold;
+  font-size: 16px;
+  position: relative;
+  top: 47px;
+  margin: 0 65px 0 150px;
+  color: #cec0a6;
+}
+
+
+
+/*호버후/
+/*헤더*/
+/*배너*/
+#banner {
+  background: url(../images/banner_06.jpg) no-repeat center center;
+  width: 100%;
+  height: 240px;
+  display: block;
+
+  background-size: cover;
+}
+
+#banner .banner_01 {
+  font-size: 26px;
+  font-family: Pretendard-Bold;
+  text-align: center;
+  display: block;
+  color: #fff;
+  padding-top: 108px;
+}
+
+/*배너*/
+/*공지사항_내용*/
+#community {
+  width: 950px;
+  height: 550px;
+  margin: 100px auto 50px;
+}
+
+/*공지사항 작은박스내용*/
+#community #comm {
+  background-color: #ebebeb;
+  width: 872px;
+  height: 158px;
+  border-radius: 5px;
+  margin: auto;
+}
+
+#community #comm .s4 {
+  display: block;
+  float: right;
+  width: 140px;
+  height: 95px;
+  margin: 15px 32px 0 0;
+}
+
+#comm .ul {
+  float: left;
+  margin-top: 30px;
+}
+
+#comm .ul .li {
+  text-align: left;
+  font-size: 30px;
+  font-family: Pretendard-SemiBold;
+  margin: 0 0 18px 37px;
+}
+
+#comm .ul .li1 {
+  text-align: left;
+  margin-left: 37px;
+  line-height: 22px;
+}
+
+/*공지사항 작은박스내용*/
+/*전체내용*/
+#main {
+  width: 890px;
+  height: 30px;
+  margin: 40px auto 0;
+}
+
+#main .cinr {
+  margin: 0 0 10px 23px;
+  font-family: Pretendard-Bold;
+  font-size: 18px;
+  float: left;
+}
+
+#main .all {
+  float: right;
+  margin: 0 25px 10px 0;
+}
+
+#main .all .in {
+  color: #605650;
+  font-family: Pretendard-Bold;
+}
+
+/*공지사항 중앙*/
+/*큰박스*/
+#community .d79 {
+  width: 890px;
+  height: 260px;
+  margin: auto 0 0 30px;
+  border-top: #605650 solid 3px;
+  background-color: #ebe2dd;
+  height: 37px;
+  width: 890px;
+  border-bottom: solid 2px #d3d3d3;
+}
+
+.index {
+
+
+  margin-top: 7px;
+}
+
+.index .span_1 {
+  display: inline-block;
+    width:130px;
+    text-align: center;
+}
+
+.index .span_2 {
+  display: inline-block;
+  width: 515px;
+  text-align: center;
+
+}
+
+.index .span_3 {
+  display: inline-block;
+  width: 110px;
+}
+
+#community .pxs {
+  width: 890px;
+  height: 37px;
+  background-color: #ffe;
+  margin: auto;
+  border-bottom: solid 2px #d3d3d3;
+}
+
+.pxs .spk {
+  width: 20px;
+  height: 18px;
+}
+
+.pxs .spk img {
+  padding: 8px 0 0 55px;
+  width: 20px;
+  height: 18px;
+}
+
+.pxs .span_8 {
+  text-align: center;
+  padding-left: 40px;
+  color: #ff0000;
+  font-family: Pretendard-SemiBold;
+}
+
+.span_7 {
+  font-size: 12px;
+
+}
+
+.span_xk {
+
+  font-size: 11px;
+}
+
+.span_xp {
+
+  font-size: 11px;
+  font-family: LeferiPoint-SpecialA;
+}
+
+#community .pxs1 {
+  width: 890px;
+  height: 37px;
+  background-color: #ffe;
+  margin: auto;
+  border-bottom: solid 2px #d3d3d3;
+}
+
+.pxs1 .spk {
+  width: 980px;
+  height: 806px;
+}
+
+.pxs1 .spk img {
+  padding: 8px 0 0 55px;
+  width: 20px;
+  height: 18px;
+}
+
+.pxs1 .span_8 {
+  text-align: center;
+  padding-left: 40px;
+  color: #ff0000;
+  font-family: Pretendard-SemiBold;
+}
+
+.span_7 {
+  font-size: 12px;
+  padding-left: 50px;
+}
+
+
+
+
+#community .pxs2 {
+  width: 890px;
+  height: 37px;
+  background-color: #ffe;
+  margin: auto;
+  border-bottom: solid 2px #d3d3d3;
+}
+
+.pxs2 .spk {
+  width: 980px;
+  height: 806px;
+}
+
+.pxs2 .spk img {
+  padding: 8px 0 0 55px;
+  width: 20px;
+  height: 18px;
+}
+
+.pxs2 .span_8 {
+  text-align: center;
+  padding-left: 40px;
+  color: #ff0000;
+  font-family: Pretendard-SemiBold;
+}
+
+
+#community .pxs3 {
+  width: 890px;
+  height: 37px;
+  background-color: #ffe;
+  margin: auto;
+  border-bottom: solid 2px #d3d3d3;
+}
+
+.pxs3 .spk {
+  width: 980px;
+  height: 806px;
+}
+
+.pxs3 .spk img {
+  padding: 8px 0 0 55px;
+  width: 20px;
+  height: 18px;
+}
+
+.pxs3 .span_8 {
+  text-align: center;
+  padding-left: 40px;
+  color: #ff0000;
+  font-family: Pretendard-SemiBold;
+}
+
+.span_7 {
+  font-size: 15px;
+  display: inline-block;
+  width: 385px;
+}
+
+.span_xk {
+
+  font-size: 13px;
+  width: 125px;
+  display: inline-block;
+}
+
+.span_xp {
+  display: inline-block;
+  width: 40px;
+  font-size: 13px;
+  font-family: LeferiPoint-SpecialA;
+  text-align: center;
+}
+
+
+
+#community .pxs4 {
+  width: 890px;
+  height: 30px;
+  background-color: #fff;
+  margin: auto;
+  border-bottom: solid 1px #d3d3d3;
+}
+
+.d77 {
+  font-size: 12px;
+    display: inline-block;
+    width: 125px;
+    text-align: center;
+    padding-left: 4px;
+    box-sizing: border-box;
+}
+
+.dx79 {
+  font-size: 12px;
+    margin: 5px 22px 5px 19px;
+    background-color: #ebebeb;
+    border: solid #d6d6d6 1px;
+    font-family: Pretendard-SemiBold;
+    display: inline-block;
+    width: 37px;
+    height: 18px;
+    line-height: 16px;
+    border-radius: 10px;
+    color: #575757;
+    text-align: center;
+}
+
+
+#community .pxs5 {
+  width: 890px;
+  height: 30px;
+  background-color: #fff;
+  margin: auto;
+  border-bottom: solid 1px #d3d3d3;
+}
+
+#community #d7979s {
+  width: 90px;
+  height: 25px;
+  margin: auto;
+  margin-top: 50px;
+}
+
+#community #d7979s #d77 {
+  background-color: white;
+  width: 15px;
+  height: 22px;
+  display: inline-block;
+
+}
+
+#community #d7979s #dpos {
+  background-color: white;
+  width: 26px;
+  height: 20px;
+  margin: 0 7px;
+  text-align: center;
+  display: inline-block;
+  /* margin: auto; */
+  /* padding-left: 8px; */
+  border: #949494 solid 1px;
+}
+
+#community #d7979s #d771 {
+  background-color: white;
+  width: 15px;
+  height: 22px;
+  display: inline-block;
+
+}
+
+/*큰박스*/
+#dkoj {
+  background-color: #ebebeb;
+  width: 889px;
+  height: 85px;
+  margin: 100px auto;
+  padding-top: 28px;
+}
+
+#dkoj1 {
+  width: 406px;
+  height: 25px;
+  margin: auto;
+}
+.select{
+  display: inline-block;
+  width: 70px;
+}
+.select select{
+  width: 58px;
+    height: 30px;
+    padding-left: 3px;
+    outline-style: none;
+}
+.search{
+  display: inline-block;
+  width: 260px;
+  
+}
+.search input{
+  width: 100%;
+  outline-style: none;
+  padding: 5px 6px;
+}
+/*공지사항 중앙*/
+/*공지사항_내용*/
+
+#dop {
+  display: inline-block;
+  width: 60px;
+  background-color: #605650;
+  color: white;
+  padding: 4px;
+  border-radius: 3px;
+  text-align: center;
+}
+
+/*푸터*/
+#footer {
+  width: 100%;
+  height: 375px;
+  background-color: #4b4a46;
+}
+
+#footer .footer_inner {
+  width: 1115px;
+  height: 180px;
+  margin: auto;
+  padding-top: 75px;
+}
+
+/*내용*/
+#logo_sub {
+  width: 155px;
+  height: 50px;
+  float: left;
+  padding-right: 85px;
+}
+
+#sub_menu {
+  float: left;
+  border-left: #76736e solid 3px;
+}
+
+#sub_menu li {
+  padding-left: 20px;
+  padding-right: 160px;
+  text-align: center;
+  padding-bottom: 12px;
+}
+
+#sub_menu li .B_m {
+  font-family: Pretendard-SemiBold;
+  color: white;
+}
+
+#sub_menu li a {
+  font-size: 13px;
+    color: #d7d2cf;
+    padding-bottom: 18px;
+    font-weight: 100;
+    font-family: Pretendard-Light;
+}
+
+#sub_menu .conter_t {
+  font-family: Pretendard-SemiBold;
+  color: white;
+}
+
+
+#sub_menu {
+  font-family: Pretendard-SemiBold;
+}
+
+#sub_menu .d46 {
+  text-align: left;
+  padding-bottom: 14px;
+}
+
+/*이미지*/
+.imgsss {
+  float: right;
+}
+.imgsss img{
+  width: 32px;
+  display: inline-block;
+  margin-left: 4px;
+}
+
+/*이미지*/
+/*내용*/
+/*푸터*/
+

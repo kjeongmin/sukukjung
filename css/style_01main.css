@@ -1,0 +1,774 @@
+/*폰트연결*/
+/*레페리포인트폰트*/
+@font-face {
+  font-family: 'LeferiPoint-WhiteA';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/LeferiPoint-WhiteA.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'LeferiPoint-BlackA';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/LeferiPoint-BlackA.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/*프리텐다드*/
+@font-face {
+  font-family: 'Pretendard-Light';
+  src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Light.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Pretendard-SemiBold';
+  src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-SemiBold.woff') format('woff');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Pretendard-Bold';
+  src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Bold.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+}
+
+/*폰트*/
+
+/*기본설정*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #1c1c19;
+}
+
+ul {
+  list-style: none;
+}
+
+body {
+  font-family: Pretendard-Light;
+  font-size: 15px;
+  line-height: 24px;
+  color: #1c1c19;
+  min-width: 1320px;
+}
+
+/*기본설정*/
+/*헤더*/
+#header {
+  background-color: #46433e;
+  height: 85px;
+}
+
+.header_inner {
+  width: 1320px;
+  height: 80px;
+  margin: auto;
+}
+
+.logo_k {
+  width: 120px;
+  height: 66px;
+  float: left;
+}
+
+.logo_k .logo_img img {
+  padding: 10px;
+  width: 120px;
+  height: 66px;
+}
+
+.header_inner .menu_top {
+  float: right;
+}
+
+.header_inner .menu_top li {
+  float: left;
+}
+
+/*호버전*/
+.header_inner .menu_top li a {
+  display: block;
+  font-family: Pretendard-Bold;
+  font-size: 16px;
+  position: relative;
+  top: 47px;
+  margin: 0 65px 0 150px;
+  color: white;
+}
+
+/*호버전*/
+/*호버후*/
+.header_inner .menu_top li a:hover {
+  display: block;
+  font-family: Pretendard-Bold;
+  font-size: 16px;
+  position: relative;
+  top: 47px;
+  margin: 0 65px 0 150px;
+  color: #cec0a6;
+}
+
+/*호버후/
+/*헤더*/
+/*슬라이드 메인배너*/
+
+/*슬라이드 메인배너*/
+.swiper {
+  width: 100%;
+  height: 550px;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/*수국정_메인의미_동영상*/
+
+.main {
+  width: 960px;
+  height: 320px;
+  margin: 80px auto 70px;
+}
+
+/*수국정_메인의미*/
+.main #main_t {
+  width: 450px;
+  height: 320px;
+  display: block;
+  margin-bottom: 100px;
+  text-align: center;
+  padding-top: 40px;
+  float: left;
+}
+
+#main_t .main_big {
+  font-family: LeferiPoint-BlackA;
+  font-size: 30px;
+  padding-bottom: 37px;
+}
+
+#main_t .bibimbab_png {
+  width: 32px;
+  height: 32px;
+}
+
+#main_t .p1 {
+  font-family: LeferiPoint-WhiteA;
+  font-size: 20px;
+  line-height: 1.5em;
+}
+
+#main_t .p_1 {
+  font-family: LeferiPoint-BlackA;
+  font-size: 20px;
+}
+
+/*수국정_메인의미*/
+/*동영상*/
+#main_move video {
+  width: 450px;
+  height: 280px;
+}
+
+/*동영상*/
+/*수국정_메인의미_동영상*/
+/*5월 중앙배너*/
+#sub_banner {
+  background: url(../images/sub_banner_01.jpg) no-repeat center;
+  width: 100%;
+  height: 372px;
+}
+
+/*5월 중앙배너*/
+/*소개_메뉴*/
+#logo_menu {
+  width: 1320px;
+  height: 1030px;
+  margin: auto;
+  background: url(../images/bg_mun-yang_01.png) no-repeat 100% 40%;
+}
+
+/*소개이미지_글*/
+#logo_menu #logo_img_text {
+  width: 1000px;
+  height: 400px;
+  padding: 100px 0 15px 0
+}
+
+/*소개_이미지*/
+#logo_img_text .logo_img2 {
+  width: 560px;
+  height: 400px;
+  float: left;
+}
+
+.logo_img2 img {
+  width: 560px;
+  height: 400px;
+}
+
+/*소개_이미지*/
+/*소개_글*/
+#logo_img_text #logo_text {
+  background-color: white;
+  width: 430px;
+  height: 396px;
+  border: 2px #d3d3d3 solid;
+  float: right;
+  text-align: left;
+  margin-bottom: 15px;
+}
+
+#logo_text .h2_1 {
+  color: #cec0a6;
+  font-family: Pretendard-Bold;
+  font-size: 30px;
+  padding: 35px 0 0 55px;
+}
+
+#logo_text .span_1 {
+  color: #1c1c19;
+  font-family: Pretendard-SemiBold;
+  font-size: 16px;
+  padding-right: 5px;
+}
+
+#logo_text .span_1 .hanok {
+  width: 40px;
+  height: 35px;
+}
+
+#logo_text .p2 {
+  padding: 20px 65px 25px 55px;
+}
+
+#logo_text .p_2 {
+  font-family: Pretendard-SemiBold;
+}
+
+/*호버전*/
+#logo_text .about_big {
+  display: inline-block;
+  background-color: #5f564f;
+  margin: 5px 0 0 55px;
+}
+
+#logo_text .about_big .about_big_1 {
+  background-color: #5f564f;
+  padding: 4px 20px;
+  margin: 4px 5px;
+  border: white solid 2px;
+  font-family: Pretendard-SemiBold;
+  font-size: 16px;
+  color: white;
+}
+
+/*호버_전*/
+/*호버_후*/
+#logo_text .about_big:hover {
+  display: inline-block;
+  background-color: #fff;
+  margin-left: 55px;
+}
+
+#logo_text .about_big .about_big_1:hover {
+  background-color: #fff;
+  padding: 4px 20px;
+  margin: 4px 5px;
+  border: #1c1c19 solid 2px;
+  font-family: Pretendard-SemiBold;
+  font-size: 16px;
+  color: #1c1c19;
+}
+
+/*호버_후*/
+/*소개_글*/
+/*메뉴_전체박스*/
+#logo_menu #menu_it {
+  width: 1320px;
+  height: 450px
+}
+
+/*메뉴_이미지_글*/
+#logo_menu #menu_img_text {
+  width: 950px;
+  height: 400px;
+  float: right;
+  padding: 15px 0 100px 0;
+}
+
+/*메뉴_글*/
+#logo_menu #menu_text {
+  background-color: white;
+  width: 380px;
+  height: 396px;
+  border: 2px #d3d3d3 solid;
+  float: left;
+  text-align: right;
+}
+
+#menu_textmenyupan #menu_text {
+  padding: 35px 0 0 55px;
+}
+
+#menu_text .h2_2 {
+  color: #cec0a6;
+  font-family: Pretendard-Bold;
+  font-size: 30px;
+  padding: 35px 55px 0 0;
+}
+
+#menu_text .span_2 {
+  color: #1c1c19;
+  font-family: Pretendard-SemiBold;
+  font-size: 16px;
+}
+
+#menu_text .p3 {
+  padding: 25px 55px 25px 0;
+}
+
+#menu_text .p_3 {
+  font-family: Pretendard-SemiBold;
+}
+
+/*호버전*/
+#menu_text .menu_big {
+  display: inline-block;
+  background-color: #5f564f;
+  margin: 20px 55px 0 0;
+}
+
+#menu_text .menu_big .menu_big_1 {
+  background-color: #5f564f;
+  padding: 4px 20px;
+  margin: 4px 5px;
+  border: white solid 2px;
+  font-family: Pretendard-SemiBold;
+  font-size: 16px;
+  color: white;
+}
+
+/*호버_전*/
+/*호버_후*/
+#menu_text .menu_big:hover {
+  display: inline-block;
+  background-color: #fff;
+  margin: 20px 55px 0 0;
+}
+
+#menu_text .menu_big .menu_big_1:hover {
+  background-color: #fff;
+  padding: 4px 20px;
+  margin: 4px 5px;
+  border: #1c1c19 solid 2px;
+  font-family: Pretendard-SemiBold;
+  font-size: 16px;
+  color: #1c1c19;
+}
+
+/*호버_후*/
+/*메뉴_글*/
+/*메뉴_이미지*/
+#menu_img_text .menu_img {
+  width: 560px;
+  height: 400px;
+  float: right;
+}
+
+#menu_img_text .menu_img .menu_img_1 {
+  width: 560px;
+  height: 400px;
+}
+
+/*메뉴_이미지*/
+/*메뉴_전체박스*/
+
+/*소개_메뉴*/
+/*md_예약*/
+/*md_이미지_배경*/
+#md_con {
+  background: url(../images/bg_md_contact_01.jpg) no-repeat center;
+  width: 100%;
+  height: 460px;
+  margin: auto;
+}
+
+/*md,예약_이미지_글 큰틀*/
+#md_con #md_con_textset {
+  width: 1280px;
+  height: 460px;
+  margin: auto;
+}
+
+/*md_이미지.글 큰틀*/
+#md_con_textset .md_img {
+  width: 617px;
+  height: 280px;
+  padding-top: 90px;
+  float: left;
+}
+
+.md_img img {
+  width: 360px;
+  height: 280px;
+}
+
+/*md글_큰틀*/
+.md_img .md_text {
+  width: 240px;
+  height: 280px;
+  float: right;
+}
+
+.md_text {
+  text-align: left;
+}
+
+.md_text .h3_11 {
+  font-family: Pretendard-SemiBold;
+  font-size: 16px;
+  padding: 0 0 25px 5px;
+}
+
+.md_text .h3_11 .market img {
+  width: 30px;
+  height: 28px;
+  padding-left: 5px;
+}
+
+/*호버전*/
+.md_text .MD_big {
+  display: inline-block;
+  background-color: #5f564f;
+}
+
+.md_text .MD_big .MD_big_1 {
+  background-color: #5f564f;
+  padding: 4px 20px;
+  margin: 4px 5px;
+  border: white solid 2px;
+  font-family: Pretendard-SemiBold;
+  font-size: 16px;
+  color: white;
+}
+
+/*호버_전*/
+/*호버_후*/
+.md_text .MD_big:hover {
+  display: inline-block;
+  background-color: #fff;
+}
+
+.md_text .MD_big .MD_big_1:hover {
+  background-color: #fff;
+  padding: 4px 20px;
+  margin: 4px 5px;
+  border: #1c1c19 solid 2px;
+  font-family: Pretendard-SemiBold;
+  font-size: 16px;
+  color: #1c1c19;
+}
+
+/*호버_후*/
+.md_text .p4 {
+  padding: 20px 0 0 5px;
+}
+
+.md_text .p_4 {
+  font-family: Pretendard-SemiBold;
+}
+
+/*md글_큰틀*/
+/*md_이미지.글 큰틀*/
+/*예약_이미지,글 큰틀*/
+#con_img_dd {
+  width: 617px;
+  height: 300px;
+  padding-top: 90px;
+  float: right;
+}
+
+/*예약_이미지*/
+
+#con_img img {
+  width: 360px;
+  height: 280px;
+  float: left
+}
+
+.con_text {
+  width: 240px;
+  height: 280px;
+  float: right;
+}
+
+/*예약_글*/
+.con_text .h3_12 {
+  font-family: Pretendard-SemiBold;
+  font-size: 16px;
+  padding: 0 0 25px 5px;
+}
+
+.con_text .h3_12 .contact img {
+  width: 30px;
+  height: 28px;
+}
+
+
+/*호버전*/
+.con_text .con_big {
+  display: inline-block;
+  background-color: #5f564f;
+  margin-left: 5px;
+}
+
+.con_text .con_big .con_big_1 {
+  background-color: #5f564f;
+  padding: 3px 12px;
+  margin: 4px 4px;
+  border: white solid 2px;
+  font-family: Pretendard-SemiBold;
+  font-size: 16px;
+  color: white;
+}
+
+/*호버_전*/
+/*호버_후*/
+.con_text .con_big:hover {
+  display: inline-block;
+  margin-left: 5px;
+  background-color: #fff;
+}
+
+.con_text .con_big .con_big_1:hover {
+  background-color: #fff;
+  padding: 3px 12px;
+  border: #1c1c19 solid 2px;
+  font-family: Pretendard-SemiBold;
+  margin: 4px 4px;
+  font-size: 16px;
+  color: #1c1c19;
+}
+
+/*호버_후*/
+.con_text .pk1 {
+  font-size: 12px;
+  padding: 16px 0 0 5px;
+}
+
+.con_text .pk2 {
+  font-family: Pretendard-SemiBold;
+  padding: 5px 0 0 5px;
+}
+
+.con_text .spn1 {
+  color: #ff0000;
+  padding: 5px 0 0 5px;
+}
+
+.con_text .i1 {
+  font-size: 12px;
+  padding-left: 5px;
+  line-height: 12px;
+}
+
+.con_text .i2 {
+  font-size: 11px;
+  padding-left: 10px;
+}
+
+/*md,예약_이미지_글 큰틀*/
+/*md_예약*/
+/*공지_이벤트 전체틀*/
+#bg_gi_ev {
+  width: 1210px;
+  height: 560px;
+  margin: auto;
+}
+
+#bg_gi_ev #gi_ev {
+  width: 1210px;
+  height: 475px;
+}
+
+#bg_gi_ev #gi_ev .gi_bg {
+  background-color: #fff;
+  width: 525px;
+  height: 380px;
+  float: left;
+  border: 5px solid #4c4a46;
+  margin-top: 85px;
+  margin-left: 50px;
+}
+
+.gi_bg .h3g {
+  border-bottom: 4px solid #000;
+  margin: 0 55px 0 35px;
+  font-family: Pretendard-SemiBold;
+  font-size: 24px;
+  padding: 35px 0 0 20px;
+  padding-bottom: 10px;
+}
+
+.gi_bg .pgf {
+  font-size: 12px;
+  float: right;
+  font-family: Pretendard-Light;
+  padding: 15px 5px 0 0;
+}
+
+.gi_bg .sp1 {
+  font-family: Pretendard-SemiBold;
+ 
+}
+
+.gi_bg .tg1 {
+  padding: 20px 0 20px 20px;
+  border-bottom: 2px #a6a6a6 solid;
+  margin: 0 55px 0 35px;
+}
+
+.gi_bg .tx1 {
+  font-size: 13px;
+  float: right;
+  color: #333;
+}
+
+#bg_gi_ev #ev_bg {
+  width: 525px;
+  height: 380px;
+  float: right;
+  background-color: #fff;
+  margin: 85px 50px 0 40px;
+  border: 5px solid #4c4a46;
+}
+
+#ev_bg .h3g {
+  border-bottom: 4px solid #000;
+  margin: 0 50px 0 40px;
+  font-family: Pretendard-SemiBold;
+  font-size: 24px;
+  padding: 35px 0 0 20px;
+  padding-bottom: 10px;
+}
+
+.pgf {
+  font-size: 12px;
+  display: inline-block;
+  font-family: Pretendard-Light;
+  padding: 22px 5px 0 260px;
+}
+
+#ev_bg .ev_i {
+  width: 420px;
+  height: 225px;
+  padding: 15px 52.5px 0;
+}
+/*푸터*/
+#footer {
+  width: 100%;
+  height: 375px;
+  background-color: #4b4a46;
+}
+
+#footer .footer_inner {
+  width: 1115px;
+  height: 180px;
+  margin: auto;
+  padding-top: 75px;
+}
+
+/*내용*/
+#logo_sub {
+  width: 155px;
+  height: 50px;
+  float: left;
+  padding-right: 85px;
+}
+
+#sub_menu {
+  float: left;
+  border-left: #76736e solid 3px;
+}
+
+#sub_menu li {
+  padding-left: 20px;
+  padding-right: 160px;
+  text-align: center;
+  padding-bottom: 12px;
+}
+
+#sub_menu li .B_m {
+  font-family: Pretendard-SemiBold;
+  color: white;
+}
+
+#sub_menu li a {
+  font-size: 13px;
+    color: #d7d2cf;
+    padding-bottom: 18px;
+    font-weight: 100;
+    font-family: Pretendard-Light;
+}
+
+#sub_menu .conter_t {
+  font-family: Pretendard-SemiBold;
+  color: white;
+}
+
+
+#sub_menu {
+  font-family: Pretendard-SemiBold;
+}
+
+#sub_menu .d46 {
+  text-align: left;
+  padding-bottom: 14px;
+}
+
+/*이미지*/
+.imgsss {
+  float: right;
+}
+.imgsss img{
+  width: 32px;
+  display: inline-block;
+  margin-left: 4px;
+}
+
+/*이미지*/
+/*내용*/
+/*푸터*/
