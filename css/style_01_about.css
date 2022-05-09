@@ -198,7 +198,7 @@ body {
     width: 800px;
     height: 280px;
     margin: auto;
-    margin-bottom: 30px;
+    padding:40px 0 50px 0;
 }
 
 /*사진*/
@@ -251,26 +251,6 @@ body {
     margin-bottom: 5px;
 }
 
-/*작은글*/
-.food_box1_2 {
-    width: 420px;
-    height: 120px;
-    margin: auto;
-    text-align: center;
-    font-family: 'Pretendard-SemiBold';
-    font-size: 14px;
-    margin-bottom: 50px;
-}
-
-.food_box1_2 .p3 {
-    padding: 0 52px 0 96px;
-}
-
-.food_box1_2 .p3 .span_1 {
-    font-size: 16px;
-}
-
-/*작은글*/
 /*요리_글*/
 /*서비스_한국*/
 .t_box {
@@ -284,7 +264,7 @@ body {
 .t_box .best_korea {
     width: 1250px;
     height: 374px;
-    margin: auto;
+    margin: 30px auto auto;
 }
 
 /*서비스*/
