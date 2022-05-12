@@ -295,7 +295,7 @@ body {
     margin-left: 15px;
 }
 
- .dok1 img {
+.dok1 img {
     width: 320px;
     height: 290px;
     display: block;
@@ -337,18 +337,30 @@ body {
     display: block;
 }
 
+
+
 .slj {
     width: 300px;
     height: 62px;
     text-align: center;
 }
 
-.kk1 p {
+.kk1 .p1 {
     font-size: 17px;
     font-family: Pretendard-SemiBold;
     text-align: center;
     margin-top: 18px;
 }
+
+.kk1 .px {margin-top: 4px;}
+
+.kk1 .p2 {
+    font-size: 17px;
+    font-family: Pretendard-SemiBold;
+    text-align: center;
+    margin-top: 18px;
+}
+
 
 .kk1 span {
     display: inline-block;
